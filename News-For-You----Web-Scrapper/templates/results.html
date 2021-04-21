@@ -53,6 +53,20 @@
 </div>
 
 <div class="table-users">
+   <div class="header">BBC</div>
+
+   <table cellspacing="0">
+      <tr>
+         <th>News</th>
+      </tr>
+         {% for review in reviews[1] %}
+      <tr>
+          <td>{{review}}</td>
+       {% endfor %}
+   </table>
+</div>
+
+<div class="table-users">
    <div class="header">INDIAN EXPRESS</div>
 
    <table cellspacing="0">
