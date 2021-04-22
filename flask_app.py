@@ -33,7 +33,7 @@ def index():
                 List_News = List_News[:5]
                 review.append(List_News)
 
-            url = 'https://indianexpress.com/?s=Rajasthan'
+            url = 'https://indianexpress.com/?s=' + searchString
             Uclient = uReq(url)
             Data = Uclient.read()
             html = bs(Data, "html.parser")
