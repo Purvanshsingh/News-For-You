@@ -1,5 +1,10 @@
 # News-For-You
-News For You is a python Flask based Web Scrapping Applicaton
+News For You is a python Flask based Web Scrapping Applicaton, Which scraps the top 5 news from the three Websites based on the keyword you enter.
+
+Websites Scrapped :
+1) NDTV
+2) INDIA TODAY
+3) INDIAN EXPRESS
 
 Project is live https://news4u.herokuapp.com/
 
